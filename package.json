@@ -1,0 +1,30 @@
+{
+  "name": "translate-mixmax-app",
+  "version": "0.0.1",
+  "description": "Translate App for Mixmax",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mixmaxhq/giphy-mixmax-app.git"
+  },
+  "author": "Manik Sikka <manik.sikka@gmail.com> (http://maniksikka.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mixmaxhq/giphy-mixmax-app/issues"
+  },
+  "homepage": "https://github.com/mixmaxhq/giphy-mixmax-app",
+  "dependencies": {
+    "body-parser": "^1.12.2",
+    "cors": "^2.7.1",
+    "express": "^4.12.3",
+    "request": "^2.64.0",
+    "synchronize": "^0.9.14",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.7.1"
+  }
+}
